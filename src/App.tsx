@@ -1,4 +1,4 @@
-import { Navigation } from "./router/Navigation";
+import { Navigation } from "./routes/Navigation";
 
 function App() {
   return (
