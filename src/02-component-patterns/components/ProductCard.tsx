@@ -1,4 +1,4 @@
-import { createContext, CSSProperties } from 'react';
+import { createContext } from 'react';
 
 import useProduct from '../hooks/useProduct';
 import { InitialValues, onChangeArgs, Product, ProductCardHandlers, ProductContextProps } from '../interfaces/interfaces';
@@ -13,7 +13,7 @@ export interface Props {
   // children?: ReactElement | ReactElement[];
   children: ( args: ProductCardHandlers ) => JSX.Element;
   className?: string;
-  style?: CSSProperties;
+  style?: React.CSSProperties;
   onChange?: ( args: onChangeArgs ) => void;
   value?: number;
   initialValues?: InitialValues;
